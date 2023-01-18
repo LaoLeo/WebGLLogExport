@@ -1,0 +1,76 @@
+# Unity generated #
+Temp/
+Library/
+Logs/
+ProjectSettings/ProjectVersion.txt
+
+# Visual Studio / MonoDevelop generated #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+/*.log
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+.vsconfig
+
+# IntelliJ IDEA generated #
+.idea
+# Visual Studio generated #
+.vs
+
+Packages/*
+!/Packages/manifest.json
+# ��ʱ��urp Դ��package
+!/Packages/com.unity.render-pipelines.core*
+!/Packages/com.unity.render-pipelines.universal*
+!/Packages/com.unity.shadergraph*
+#ui-particle��ǰ�汾5f3ead2086
+!/Packages/com.coffee.ui-particle*         
+!/Packages/com.needle.shadergraph-markdown*        
+!/Packages/com.unity.addressables*
+
+
+#Yeah we moved Library/EditorUserSettings.asset into this new folder.
+#The reason being, that Library should contain only imported/cached data that can be completely reconstructed from the project. 
+#People delete their Library folders all the time, etc.
+
+#But, parts of editor settings were in Library/EditorUserSettings.asset file (things like user's perforce connection settings etc.). 
+#So now it's in that new location. The folder should not be put into version control, since it's per-user things there.
+
+#See "Editor: Unity projects now have "UserSettings" top-level folder, EditorUserSettings.asset moved from Library there" in release notes, 
+#and mentions of the folder in https://docs.unity3d.com/2020.1/Documentation/Manual/ExternalVersionControlSystemSupport.html docs page
+UserSettings/*
+
+#����MAC�ϵ��ļ�
+.DS_Store
+LuaEncoder/.DS_Store
+
+# �µĿ�ܴ�lua���ֽ�����Ŀ¼
+LuaEncoder/*
+LuaEncoder.meta
+
+
+#bundle�������󣬲��ϴ�
+#����bundle����·����Assets���
+AssetBundles/*
+AssetBundles.meta
+
+
+#��������
+IgnorePreferences/
+IgnorePreferences.meta
+
+#ս����־Ŀ¼
+battlelog/
+
+/mono_crash*
+
+/heu_session.txt
+
+/PJGLogs
